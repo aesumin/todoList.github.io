@@ -1,0 +1,131 @@
+
+.hidden {
+    display: none;
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+}
+
+body {
+    color: white;
+}
+
+#login-form {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+#login-form input {
+    background-color: transparent;
+    color: white;
+    width: 300px;
+    height: 35px;
+    border: 0;
+    border-bottom: 1px solid;
+    border-bottom-color: white;
+}
+
+#login-form input::placeholder {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+
+#greeting {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#clock {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#weather {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+#todo-form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#todo-form input{
+    background-color: transparent;
+    color: white;
+    width: 400px;
+    height: 35px;
+    border: 0;
+    border-bottom: 3px solid;
+    border-bottom-color: white;
+}
+
+#todo-form input::placeholder {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+#todo-list{
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 15px;
+}
+
+#todo-list li {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#todo-list li button {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}
+
+#quote {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nanum Brush Script', cursive;
+
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+}
+
+#quote span:first-child {
+    margin-bottom: 20px;
+}
+
+#quote span:last-child {
+    font-size: 25px;
+}
+
+
+
